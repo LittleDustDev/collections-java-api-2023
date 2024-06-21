@@ -56,6 +56,7 @@ public class CarrinhoDeCompras {
         System.out.println("O número total de produtos é: " + carrinhoDeCompras.totalItens());
 
         carrinhoDeCompras.exibirItens();
-        carrinhoDeCompras.calcularValorTotal();
+        System.out.println("O valor total da compra é = " + String.format("%.2f", carrinhoDeCompras.calcularValorTotal()));
+
     }
 }
