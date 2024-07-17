@@ -28,4 +28,15 @@ public class OrdenacaoPessoa {
         Collections.sort(pessoasPorAltura, new ComparatorPorAltura());
         return pessoasPorAltura;
     }
+
+    public static void main(String[] args) {
+        OrdenacaoPessoa ordenacaoPessoa = new OrdenacaoPessoa();
+        ordenacaoPessoa.adicionarPessoa("Adão", 20, 1.56);
+        ordenacaoPessoa.adicionarPessoa("Bruno", 30, 1.80);
+        ordenacaoPessoa.adicionarPessoa("Carlos", 25, 1.70);
+        ordenacaoPessoa.adicionarPessoa("Daniel", 17, 1.60);
+
+        System.out.println(ordenacaoPessoa.ordenarPorIdade());
+        System.out.println(ordenacaoPessoa.ordenarPorAltura());
+    }
 }
