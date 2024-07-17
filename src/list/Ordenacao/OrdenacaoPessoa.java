@@ -36,6 +36,7 @@ public class OrdenacaoPessoa {
         ordenacaoPessoa.adicionarPessoa("Carlos", 25, 1.70);
         ordenacaoPessoa.adicionarPessoa("Daniel", 17, 1.60);
 
+        System.out.println(ordenacaoPessoa.pessoaList);
         System.out.println(ordenacaoPessoa.ordenarPorIdade());
         System.out.println(ordenacaoPessoa.ordenarPorAltura());
     }
