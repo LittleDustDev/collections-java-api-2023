@@ -8,6 +8,7 @@ public class ConjuntoConvidados {
     //atributo
     private Set<Convidado> convidadoSet;
 
+    @SuppressWarnings({ "rawtypes", "unchecked" })
     public ConjuntoConvidados() {
         this.convidadoSet = new HashSet();
     }
