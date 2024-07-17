@@ -9,6 +9,7 @@ public class OrdenacaoPessoa {
     //atributo
     private List<Pessoa> pessoaList;
 
+    @SuppressWarnings({ "rawtypes", "unchecked" })
     public OrdenacaoPessoa() {
         this.pessoaList = new ArrayList();
     }

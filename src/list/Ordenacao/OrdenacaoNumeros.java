@@ -8,6 +8,7 @@ public class OrdenacaoNumeros {
     
     private List<Integer> numeroList;
     
+    @SuppressWarnings({ "rawtypes", "unchecked" })
     public OrdenacaoNumeros() {
         this.numeroList = new ArrayList();
     }
